@@ -1,14 +1,26 @@
 <template>
   <div>
-    <H1>HEADER</H1>
-    <button><router-link to="/tab1">tab1</router-link></button>
-    <button><router-link to="/tab2">tab2</router-link></button>
+    <SpinnerCompVue/>
+    <NavHeader/>
+   
     <router-view></router-view>
+    <FooterBottom/>
   </div>
 </template>
 
 <script>
+  import SpinnerCompVue from "./components/elements/SpinnerComp.vue";
+  import NavHeader from "./components/layouts/NavHeader";
+  import FooterBottom from "./components/layouts/FooterBottom.vue";
+
+
+
 export default {
-  name: "App"
+    name: "App",
+    components: { 
+      SpinnerCompVue,
+      FooterBottom,
+      NavHeader
+     }
 }
 </script>
