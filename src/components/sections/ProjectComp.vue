@@ -6,7 +6,8 @@
 
 
 
-    <div class="col-lg-12 wow fadeInUp container" data-wow-delay="0.5s">
+    <div class="col-lg-12 wow fadeInUp container" id="project" data-wow-delay="0.5s">
+        <h1 class="text-center mb-5">Projects</h1>
                     <ul class="nav nav-pills rounded border border-2 border-primary mb-5">
                         <li class="nav-item w-50">
                             <button class="nav-link w-100 py-3 fs-5 active" data-bs-toggle="pill" href="#tab-69">Team Colaboration</button>
@@ -15,6 +16,7 @@
                             <button class="nav-link w-100 py-3 fs-5" data-bs-toggle="pill" href="#tab-96">Solo</button>
                         </li>
                     </ul>
+                    <br>
                     <div class="tab-content">
                         <div id="tab-69" class="tab-pane fade show p-0 active">
                             <div class="row gy-5 gx-4">
@@ -22,8 +24,8 @@
                     <div class="portfolio-img rounded overflow-hidden">
                         <img class="img-fluid" src="assets/img/property.PNG" alt="">
                         <div class="portfolio-btn">
-                            <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href="assets/img/project-6.jpg" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
-                            <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href=""><i class="fa fa-link"></i></a>
+                            <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href="assets/img/property.PNG" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                            <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href="https://mrpropertybazar.com/"><i class="fa fa-link"></i></a>
                         </div>
                         <h3 class="text-center">Mr. Property Bazar</h3>
                     </div>
@@ -33,7 +35,7 @@
                     <div class="portfolio-img rounded overflow-hidden">
                         <img class="img-fluid" src="assets/img/moto.PNG" alt="">
                         <div class="portfolio-btn">
-                            <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href="assets/img/project-6.jpg" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                            <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href="assets/img/moto.PNG" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
                             <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href=""><i class="fa fa-link"></i></a>
                         </div>
                         <h3 class="text-center">MotoBuddy Backend</h3>
@@ -43,8 +45,8 @@
                     <div class="portfolio-img rounded overflow-hidden">
                         <img class="img-fluid" src="assets/img/system.PNG" alt="">
                         <div class="portfolio-btn">
-                            <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href="assets/img/project-6.jpg" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
-                            <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href=""><i class="fa fa-link"></i></a>
+                            <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href="assets/img/system.PNG" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                            <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href="https://systemminelab.com/"><i class="fa fa-link"></i></a>
                         </div>
                         <h3 class="text-center">System mine Lab</h3>
                     </div>
@@ -63,8 +65,8 @@
                     <div class="portfolio-img rounded overflow-hidden">
                         <img class="img-fluid" src="assets/img/lips.PNG" alt="">
                         <div class="portfolio-btn">
-                            <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href="assets/img/project-6.jpg" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
-                            <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href=""><i class="fa fa-link"></i></a>
+                            <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href="assets/img/lips.PNG" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                            <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href="https://www.lips.group/"><i class="fa fa-link"></i></a>
                         </div>
                         <h3 class="text-center">LIPS</h3>
                     </div>
@@ -73,8 +75,8 @@
                     <div class="portfolio-img rounded overflow-hidden">
                         <img class="img-fluid" src="assets/img/manji.PNG" alt="">
                         <div class="portfolio-btn">
-                            <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href="assets/img/project-6.jpg" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
-                            <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href=""><i class="fa fa-link"></i></a>
+                            <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href="assets/img/manji.PNG" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                            <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href="https://manjistore.systemminelab.com/"><i class="fa fa-link"></i></a>
                         </div>
                         <h3 class="text-center">Manji Store</h3>
                     </div>
@@ -83,8 +85,8 @@
                     <div class="portfolio-img rounded overflow-hidden">
                         <img class="img-fluid" src="assets/img/fandom.PNG" alt="">
                         <div class="portfolio-btn">
-                            <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href="assets/img/project-6.jpg" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
-                            <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href=""><i class="fa fa-link"></i></a>
+                            <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href="assets/img/fandom.PNG" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                            <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href="https://fandombd.systemminelab.com/"><i class="fa fa-link"></i></a>
                         </div>
                         <h3 class="text-center">Fandom BD</h3>
                     </div>
@@ -106,7 +108,7 @@
 
 
 
-
+<br><br><br><br>
 
 
 

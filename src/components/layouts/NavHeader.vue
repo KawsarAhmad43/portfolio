@@ -24,7 +24,7 @@
                
                 <a href="/#project" class="nav-item nav-link">Projects</a>
                 <!--  -->
-                <a href="/#testimonial" class="nav-item nav-link">Testimonial</a>
+                
                 <router-link class="nav-item nav-link" to="/contact">Contact</router-link>
             </div>
 
